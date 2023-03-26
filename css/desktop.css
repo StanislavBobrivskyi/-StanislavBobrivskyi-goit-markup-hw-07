@@ -1,0 +1,129 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .header-container {
+    padding: 0;
+  }
+
+  .nav-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    position: relative;
+    color: var(--primary-text-color);
+  }
+
+  .contact {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .adress-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .hero {
+    width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-img@1x.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img@2x.jpg);
+    }
+  }
+
+  .features-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .features-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-title {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .team {
+    gap: 24px;
+  }
+
+  .customers {
+    padding: 120px 56px;
+  }
+
+  /* .customer-list {
+    display: flex;
+    gap: 24px;
+  } */
+
+  .customers-list-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .customers-list-link {
+    height: 88px;
+  }
+
+  .footer-container {
+    display: flex;
+  }
+
+  .footer-position {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer-description {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+  .footer-social-media {
+    margin-right: 80px;
+  }
+
+  .footer-modal-form-wrapper {
+    display: flex;
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-modal-form-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+  }
+
+  .sections-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

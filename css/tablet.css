@@ -1,0 +1,169 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .page-header-container {
+    align-items: center;
+  }
+  .nav-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    position: relative;
+    color: var(--primary-text-color);
+  }
+
+  .header-container {
+    padding: 0;
+  }
+
+  .adress-link {
+    padding: 0;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mobile-menu-container {
+    display: none;
+  }
+
+  .hero {
+    width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images-tablet-studio/tablet-hero-img@1x.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 780px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 780px),
+    screen and (min-resolution: 192dpi) and (min-width: 780px),
+    screen and (min-resolution: 2dppx) and (min-width: 780px) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images-tablet-studio/tablet-hero-img@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    width: 496px;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .features-list-link {
+      display: none;
+    }
+  }
+
+  .features-list-card:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .features-list-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-title {
+    text-align: left;
+  }
+
+  .team-section {
+    padding-top: 104px;
+    padding-bottom: 96px;
+  }
+
+  .team-title {
+    width: calc((100% - 24) / 2);
+  }
+
+  .team {
+    gap: 24px;
+    row-gap: 64px;
+  }
+
+  .customers {
+    padding: 96px 108px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .customers-list-link {
+    height: 88px;
+  }
+
+  .footer {
+    padding-left: 108px;
+  }
+
+  .footer-position {
+    display: flex;
+  }
+
+  .footer-modal-form-wrapper {
+    display: flex;
+  }
+
+  .footer-position {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-studio {
+    text-align: left;
+    margin-right: 24px;
+  }
+  .footer-paragraph {
+    text-align: left;
+  }
+
+  .footer-social-list {
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+
+  .footer-modal-form-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+  }
+
+  .footer-modal-form-submit {
+    margin: 0;
+  }
+
+  .footer-modal-form-title {
+    text-align: left;
+  }
+
+  .footer-modal-form-feald {
+    margin-right: 24px;
+  }
+
+  .sections-features {
+    padding: 96px 16px;
+  }
+}
