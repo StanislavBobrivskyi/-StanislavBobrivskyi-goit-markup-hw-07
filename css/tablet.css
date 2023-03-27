@@ -39,10 +39,10 @@
       url(../images-tablet-studio/tablet-hero-img@1x.jpg);
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 780px),
-    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 780px),
-    screen and (min-resolution: 192dpi) and (min-width: 780px),
-    screen and (min-resolution: 2dppx) and (min-width: 780px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -56,7 +56,7 @@
     width: 496px;
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1200px) {
     .features-list-link {
       display: none;
     }
@@ -124,7 +124,7 @@
     padding-right: 108px;
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1199px) {
     .footer-container {
       width: 565px;
     }

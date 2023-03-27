@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
   .site-nav {
     display: none;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1200px) {
   .features-list-link {
     display: none;
   }

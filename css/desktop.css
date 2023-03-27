@@ -1,6 +1,6 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1128px;
   }
 
   .header-container {
@@ -27,7 +27,7 @@
   }
 
   .hero {
-    width: 1440px;
+    width: 1200px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -35,10 +35,10 @@
       url(../images/hero-img@1x.jpg);
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-    screen and (min-resolution: 192dpi) and (min-width: 1440px),
-    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+    screen and (min-resolution: 192dpi) and (min-width: 1200px),
+    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -105,11 +105,10 @@
     flex-wrap: nowrap;
   }
   .footer-description {
-    margin-right: 120px;
     margin-bottom: 0;
   }
-  .footer-social-media {
-    margin-right: 80px;
+  .footer-desktop {
+    margin-left: auto;
   }
 
   .footer-modal-form-wrapper {
