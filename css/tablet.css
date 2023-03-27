@@ -115,8 +115,19 @@
     height: 88px;
   }
 
+  .section-portfolio {
+    padding: 64px 16px 92px 16px;
+  }
+
   .footer {
     padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .footer-container {
+      width: 565px;
+    }
   }
 
   .footer-position {

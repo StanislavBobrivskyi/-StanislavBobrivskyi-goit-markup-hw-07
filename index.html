@@ -206,13 +206,28 @@
                 <h2 class="section-title">What are we doing</h2>
                 <ul class="exemples-list list">
                     <li class="exemples-card">
-                        <img src="./images/personalcomputer@1x.jpg" alt="personal-computer" width="360">
+                        <picture>
+                            <source srcset="./images/personalcomputer@1x.jpg 1x, ./images/personalcomputer@2x.jpg 2x"
+                                media="(min-width: 1440px)" />
+                            <img src="./images/personalcomputer@1x.jpg" alt="personal-computer" width="360">
+                        </picture>
+
                     </li>
                     <li class="exemples-card">
-                        <img src="./images/smartphone@1x.jpg" alt="smartphone" width="360">
+                        <picture>
+                            <source srcset="./images/smartphone@1x.jpg 1x, ./images/smartphone@2x.jpg  2x"
+                                media="(min-width: 1440px)" />
+                            <img src="./images/smartphone@1x.jpg" alt="smartphone" width="360">
+                        </picture>
                     </li>
                     <li class="exemples-card">
-                        <img src="./images/smartphone_in_hand@1x.jpg" alt="hand-holding-a-phone" width="360">
+                        <picture>
+                            <source
+                                srcset="./images/smartphone_in_hand@1x.jpg 1x, ./images/smartphone_in_hand@2x.jpg  2x"
+                                media="(min-width: 1440px)" />
+                            <img src="./images/smartphone_in_hand@1x.jpg" alt="hand-holding-a-phone" width="360">
+                        </picture>
+
                     </li>
                 </ul>
             </div>
