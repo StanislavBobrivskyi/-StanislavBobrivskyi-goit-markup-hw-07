@@ -119,6 +119,19 @@
     padding: 64px 16px 92px 16px;
   }
 
+  .portfolio {
+    row-gap: 72px;
+  }
+  @media screen and (max-width: 1199px) {
+    .portfolio-title {
+      width: calc((100% - 24px) / 2);
+    }
+  }
+
+  .filtr-btn {
+    margin-bottom: 64px;
+  }
+
   .footer {
     padding-left: 108px;
     padding-right: 108px;

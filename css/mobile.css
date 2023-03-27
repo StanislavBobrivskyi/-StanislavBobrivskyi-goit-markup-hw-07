@@ -67,6 +67,17 @@
   .section-exemples {
     display: none;
   }
+
+  .filtr-btn {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 48px;
+    gap: 24px;
+  }
+
+  .portfolio {
+    justify-content: center;
+  }
 }
 /* @media screen and (max-width: 1440px) {
   .features-list-link {
