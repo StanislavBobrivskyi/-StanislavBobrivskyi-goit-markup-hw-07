@@ -21,6 +21,10 @@
     align-items: center;
   }
 
+  .contact-email {
+    margin-right: 40px;
+  }
+
   .adress-link {
     padding-top: 24px;
     padding-bottom: 24px;
