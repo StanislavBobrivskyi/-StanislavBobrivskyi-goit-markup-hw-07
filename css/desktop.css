@@ -1,6 +1,6 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .container {
-    max-width: 1128px;
+    max-width: 1158px;
   }
 
   .header-container {
@@ -19,6 +19,10 @@
     margin-left: auto;
     display: flex;
     align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
   }
 
   .contact-email {
@@ -31,7 +35,7 @@
   }
 
   .hero {
-    width: 1200px;
+    width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -39,10 +43,10 @@
       url(../images/hero-img@1x.jpg);
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
-    screen and (min-resolution: 192dpi) and (min-width: 1200px),
-    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (min-resolution: 192dpi) and (min-width: 1400px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -122,6 +126,10 @@
   }
   .footer-desktop {
     margin-left: auto;
+  }
+
+  .footer-studio {
+    margin-right: 120px;
   }
 
   .footer-modal-form-wrapper {
