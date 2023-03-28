@@ -137,13 +137,14 @@
   }
 
   .section-portfolio {
-    padding: 64px 16px 92px 16px;
+    padding-top: 64px;
+    padding-bottom: 92px;
   }
 
   .portfolio {
     row-gap: 72px;
   }
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1440px) {
     .portfolio-title {
       width: calc((100% - 24px) / 2);
     }
