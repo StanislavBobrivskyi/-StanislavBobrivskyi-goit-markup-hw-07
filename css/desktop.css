@@ -15,17 +15,25 @@
     color: var(--primary-text-color);
   }
 
-  .contact {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
+  .adress-link {
     font-size: 16px;
     line-height: 1.5;
 
     letter-spacing: 0.02em;
   }
 
+  .contact {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    /* font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em; */
+  }
+
   .contact-email {
+    margin-bottom: 0;
     margin-right: 40px;
   }
 

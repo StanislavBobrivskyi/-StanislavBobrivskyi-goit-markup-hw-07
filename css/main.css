@@ -152,7 +152,6 @@ body {
   background-color: var(--primary-white-color);
   opacity: 0;
   visibility: hidden;
-  pointer-events: 0;
 
   transition: opacity 500ms linear, visibility 500ms linear;
 }
@@ -254,12 +253,6 @@ body {
   margin-left: auto;
 }
 
-/* .contact {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-} */
-
 .contact-email {
   margin-left: auto;
   margin-right: 40px;
@@ -294,9 +287,9 @@ body {
 .contact .link {
   color: var(--title-text-color);
 
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; */
   text-decoration: none;
   transition: color var(--timing-function);
 }
