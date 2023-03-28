@@ -168,9 +168,9 @@
     }
 
     .footer-position {
+      gap: 24px;
       display: flex;
       flex-wrap: wrap;
-      gap: 24px;
     }
   }
 
