@@ -130,6 +130,7 @@
 
   .filtr-btn {
     margin-bottom: 64px;
+    justify-content: center;
   }
 
   .footer {
