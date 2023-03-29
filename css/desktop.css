@@ -15,7 +15,7 @@
     color: var(--primary-text-color);
   }
 
-  .adress-link {
+  .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -32,7 +32,7 @@
     margin-right: 40px;
   }
 
-  .adress-link {
+  .address-link {
     padding-top: 24px;
     padding-bottom: 24px;
   }
