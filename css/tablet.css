@@ -138,7 +138,7 @@
   .portfolio {
     row-gap: 72px;
   }
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1200px) {
     .portfolio-title {
       width: calc((100% - 24px) / 2);
     }
