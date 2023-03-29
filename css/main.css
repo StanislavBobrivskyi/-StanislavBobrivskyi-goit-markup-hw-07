@@ -315,7 +315,7 @@ body {
 }*/
 
 .hero {
-  width: 100%;
+  max-width: 428px;
   margin: 0 auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,6 +329,19 @@ body {
     url(../images-mobile-studio/mobile-heroimg@1x.jpg);
   background-size: cover;
   background-color: #2e2f42b2;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images-mobile-studio/mobile-heroimg@2x.jpg);
+  }
 }
 
 .hero-title {
@@ -392,6 +405,7 @@ body {
 }
 
 .features-title {
+  margin-bottom: 8px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -410,6 +424,10 @@ body {
 
 .paragraph {
   max-width: 396px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .features-list-card:not(:last-child) {

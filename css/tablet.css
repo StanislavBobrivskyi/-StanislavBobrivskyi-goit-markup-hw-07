@@ -43,7 +43,7 @@
   }
 
   .hero {
-    width: 768px;
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -71,12 +71,6 @@
     width: 496px;
     font-size: 56px;
     line-height: 1.08;
-  }
-
-  @media screen and (max-width: 1400px) {
-    .features-list-link {
-      display: none;
-    }
   }
 
   .features-list-card:not(:last-child) {
