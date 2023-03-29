@@ -331,10 +331,10 @@ body {
   background-color: #2e2f42b2;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
-  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px),
-  screen and (min-resolution: 192dpi) and (min-width: 480px),
-  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 480px),
+  screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 480px),
+  screen and (min-resolution: 192dpi) and (max-width: 480px),
+  screen and (min-resolution: 2dppx) and (max-width: 480px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
