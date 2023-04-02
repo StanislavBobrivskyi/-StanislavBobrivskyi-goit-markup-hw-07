@@ -181,9 +181,9 @@ body {
   position: absolute;
   top: 24px;
   right: 15px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -192,6 +192,13 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color var(--timing-function),
     border-color var(--timing-function);
+}
+
+.modal-menu-close-icon {
+  padding-left: 0px;
+  padding-bottom: 4px;
+  padding-right: 13px;
+  padding-top: 0px;
 }
 
 .mobile-menu-item:nth-child(n + 2) {
