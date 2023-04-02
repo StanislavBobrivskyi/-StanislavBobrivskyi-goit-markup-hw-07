@@ -801,6 +801,7 @@ body {
 
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
+  opacity: 0.3;
   transform: translate(0, 0);
 }
 
@@ -857,9 +858,9 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 24px;
   height: 24px;
   border-radius: 50%;
